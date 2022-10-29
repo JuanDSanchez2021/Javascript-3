@@ -2,6 +2,7 @@ cantidadNumeros = Number(prompt("Ingresa la cantidad de números a mostrar:"));
 
 document.write("Cantidad de números a mostrar: ", cantidadNumeros," (tipo de dato: ",typeof(cantidadNumeros),")");
 
+
 encontrado = 0;
 for(i = 1; encontrado <= cantidadNumeros-1; i++){
     //  Primer filtro que revisa si es par
